@@ -11,6 +11,8 @@ app.listen(port, () => {
 });
 app.use(express.static('public'));
 
+//importo il router in una variabile
 const postsRouter = require('./routers/posts.js');
 
+//vado ad utilizzare postsRouter per creare effettivamente le rotte
 app.use("/posts" , postsRouter);
