@@ -7,7 +7,7 @@ router.get('/', (req , res) =>{
   res.send('lista dei post');
 });
 
-//show
+//show -> visualizza un post
 router.get('/:id', (req, res) => {
   res.send(`dettaglio del post ${req.params.id}`);
 });
