@@ -1,7 +1,8 @@
+
 const express = require('express');
 const router = express.Router();
 
-//index
+//index -> visualizza la lista dei post
 router.get('/', (req , res) =>{
   res.send('lista dei post');
 });
