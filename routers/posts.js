@@ -24,7 +24,7 @@ router.put('/:id', (req, res) =>{
   res.send(`modifica totale del post ${req.params.id}`);
 });
 
-//modify
+//modify -> modifica parziale di un post
 
 router.patch('/:id', (req, res) => {
   res.send(`modifica parziale del post ${req.params.id}`);
