@@ -36,6 +36,7 @@ router.delete('/:id', (req, res) => {
   res.send(`cancellazione del post ${req.params.id}`);
 });
 
+//esporto il router
 module.exports = router;
 
 
