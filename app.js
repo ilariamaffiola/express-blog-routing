@@ -10,3 +10,7 @@ app.listen(port, () => {
     console.log(`app listening on port ${port}`);
 });
 app.use(express.static('public'));
+
+const postsRouter = require('./routers/posts.js');
+
+app.use("/posts" , postsRouter);
