@@ -1,5 +1,6 @@
-
+//importo express
 const express = require('express');
+//importo la classe router
 const router = express.Router();
 
 //index -> visualizza la lista dei post
