@@ -30,7 +30,7 @@ router.patch('/:id', (req, res) => {
   res.send(`modifica parziale del post ${req.params.id}`);
 });
 
-//destroy 
+//destroy -> elimina un post
 router.delete('/:id', (req, res) => {
   res.send(`cancellazione del post ${req.params.id}`);
 });
